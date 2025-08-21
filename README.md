@@ -14,7 +14,7 @@
 
 > [!TIP]
 > 
-> **[懒人配置](https://lowertop.github.io/Shadowrocket/lazy_group.conf)**，发布于 [官方群组](https://t.me/ShadowrocketApp)，是专为 **懒人** 打造的开箱即用的配置文件，它对每条命令都进行了详细的注释说明，内置了几乎完整的使用手册，适合几乎任何阶段的用户使用，是除默认配置外首推的配置文件。本仓将同步保持更新，[Johnshall 仓库](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) 的版本也以本仓文件为基础保持同步，但更推荐 [访问官方群组](https://t.me/ShadowrocketApp) 使用离线版本
+> **[懒人配置](https://kiwear.github.io/Shadowrocket/lazy_group.conf)**，发布于 [官方群组](https://t.me/ShadowrocketApp)，是专为 **懒人** 打造的开箱即用的配置文件，它对每条命令都进行了详细的注释说明，内置了几乎完整的使用手册，适合几乎任何阶段的用户使用，是除默认配置外首推的配置文件。本仓将同步保持更新，[Johnshall 仓库](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) 的版本也以本仓文件为基础保持同步，但更推荐 [访问官方群组](https://t.me/ShadowrocketApp) 使用离线版本
 > 
 > ```ruby
 > https://lowertop.github.io/Shadowrocket/lazy_group.conf
