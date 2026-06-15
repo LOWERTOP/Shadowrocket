@@ -1,0 +1,11 @@
+# Shadowrocket 导出的日志数据库
+logs/
+*.db
+*.db-shm
+*.db-wal
+
+# macOS
+.DS_Store
+
+# agents
+.trae/
