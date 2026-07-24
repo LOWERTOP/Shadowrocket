@@ -760,15 +760,17 @@
 > 
 > **REJECT**：拒绝。返回 HTTP 状态码 404，没有内容
 > 
-> **REJECT-DICT**：拒绝。返回 HTTP 状态码 200，内容为空的JSON对象
+> **REJECT-DICT**：拒绝。返回 HTTP 状态码 200，内容为空的 JSON 对象
 > 
-> **REJECT-ARRAY**：拒绝。返回 HTTP 状态码 200，内容为空的JSON数组
+> **REJECT-ARRAY**：拒绝。返回 HTTP 状态码 200，内容为空的 JSON 数组
 > 
 > **REJECT-200**：拒绝。返回 HTTP 状态码 200，没有内容
 > 
 > **REJECT-IMG**：拒绝。返回 HTTP 状态码 200，内容为 1 像素 GIF
 > 
 > **REJECT-TINYGIF**：拒绝。返回 HTTP 状态码200，内容为 1 像素 GIF
+>
+> **REJECT-VIDEO**：拒绝。返回 HTTP 状态码200，内容为空白 MP4
 > 
 > **REJECT-DROP**：拒绝。丢弃 IP 包
 > 
