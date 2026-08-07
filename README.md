@@ -4,11 +4,10 @@
 
 > [!NOTE]
 > 
-> 本使用手册基于 **[Shadowrocket 官方群组](https://t.me/ShadowrocketApp)** 维护的关键词列表编写，并结合社区反馈持续更新完善，涵盖 Shadowrocket 大部分功能说明、使用方法及部分常见问题，力求为用户提供一份完整、易读的参考文档
-> 
+> 本使用手册基于 **[Shadowrocket 官方群组](https://t.me/ShadowrocketApp)** 维护的关键词列表编写，并结合社区反馈持续更新完善，涵盖 Shadowrocket 大部分功能说明、使用方法及部分常见问题，力求为用户提供一份完整、易读的参考文档<br>
 > 本仓库为 **非官方项目**，与 [Shadow Launch Technology Limited](https://shadowlaunch.com) 无任何关联，仅由社区进行更新维护。谨向原关键词列表作者及所有为相关项目作出贡献的开发者、维护者和社区成员致以诚挚感谢
 > 
-> 使用本手册及相关软件时，请遵守当地法律法规，并自行承担相关责任
+> **使用本手册及相关软件时，请遵守当地法律法规，并自行承担相关责任**
 > 
 > 更多配置示例、主题配色及扩展资源，请参阅「**[配色与配置](https://github.com/LOWERTOP/Shadowrocket-First)**」仓库
 
@@ -544,6 +543,10 @@
 > **DNS覆写 `dns-server`**
 > 
 > > 使用普通 DNS 或加密 DNS（如 `doh`、`doq`、`dot` 等）覆盖默认的系统 DNS。DNS 覆写仅针对直连类域名进行解析，代理类域名将经由代理服务器进行解析。DNS 覆写支持同时添加多个地址，Shadowrocket 采用并行查询的方式进行解析请求，最先返回的结果将被采用。有些 `dns over https` 支持 `http3`，所以将会尝试查询，如果支持就切换到 `http3`，可在 **doh链接** 后面加上 `#no-h3` 关闭。`doh` 强制通过 `h3` 查询的写法是将 `https` 改成 `h3`，如`h3://dns.alidns.com/dns-query`。其他示例或写法参见：[修改DNS](#修改dns)、[DNS-over-PROXY](#dns-over-proxy)
+> 
+> **直连DNS `direct-dns-server`**
+> 
+> > 用于解析匹配直连域名规则的域名。如果不设置此项则默认使用 DNS 覆写；如果设置此项但解析失败，则回退至备用 DNS 解析
 > 
 > **备用DNS `fallback-dns-server`**
 > 
@@ -1573,6 +1576,10 @@
 >   
 >   * 需要注意 [TUN旁路路由](#通用参数) `tun-excluded-routes` 内若包含 `100.64.0.0/10` 网段可能对 Tailscale 有一定影响，参见 [Tailscale IP 地址](https://tailscale.com/docs/concepts/tailscale-ip-addresses) 以及 [CGNAT 冲突排查](https://tailscale.com/docs/reference/troubleshooting/network-configuration/cgnat-conflicts)
 >   
+> * **低电量模式**
+>   
+>   开启时，Tailscale 将在首次完成网络同步后于空闲状态下释放网络资源，并在需要时自动恢复连接。空闲期间不会更新网络状态
+> 
 > * **认证密钥**
 >   
 >   填写并使用来自 Tailscale 管理控制台的可复用或临时 **[认证密钥](https://tailscale.com/docs/features/access-control/auth-keys)**，使设备无需登录即可加入 Tailscale 网络
