@@ -4,12 +4,11 @@
 
 > [!NOTE]
 > 
-> 本使用手册基于 **[Shadowrocket 官方群组](https://t.me/ShadowrocketApp)** 维护的关键词列表编写，并结合社区反馈持续更新完善，涵盖 Shadowrocket 大部分功能说明、使用方法及部分常见问题，力求为用户提供一份完整、易读的参考文档<br>
-> 本仓库为 **非官方项目**，与 [Shadow Launch Technology Limited](https://shadowlaunch.com) 无任何关联，仅由社区进行更新维护。谨向原关键词列表作者及所有为相关项目作出贡献的开发者、维护者和社区成员致以诚挚感谢
+> 本使用手册基于 **[Shadowrocket 官方群组](https://t.me/ShadowrocketApp)** 维护的关键词列表编写，并结合更新日志及社区反馈持续更新完善，覆盖 **Shadowrocket 正式版** 及 **TestFlight 测试版** 大部分功能说明、使用方法及部分常见问题。软件的部分功能可能因版本迭代存在调整、优化或删改，具体内容请以实际版本为准
 > 
 > **使用本手册及相关软件时，请遵守当地法律法规，并自行承担相关责任**
 > 
-> 更多配置示例、主题配色及扩展资源，请参阅「**[配色与配置](https://github.com/LOWERTOP/Shadowrocket-First)**」仓库
+> 本仓库为 **非官方项目**，与 [Shadow Launch Technology Limited](https://shadowlaunch.com) 无任何关联，仅由社区进行更新维护。谨向原关键词列表作者及所有为相关项目作出贡献的开发者、维护者和社区成员致以诚挚感谢。更多配置示例、主题配色及扩展资源，请参阅「**[配色与配置](https://github.com/LOWERTOP/Shadowrocket-First)**」仓库
 
 > [!TIP]
 > 
@@ -33,7 +32,7 @@
 
 > 官方群组：[Shadowrocket App](https://t.me/ShadowrocketApp)<br>
 > 官方频道：[Shadowrocket News](https://t.me/ShadowrocketNews)<br>
-> 反馈邮箱：[buginapp@gmail.com](mailto:buginapp@gmail.com)
+> 官方邮箱：[buginapp@gmail.com](mailto:buginapp@gmail.com)
 
 ## [使用目录](https://github.com/LOWERTOP/Shadowrocket)
 
