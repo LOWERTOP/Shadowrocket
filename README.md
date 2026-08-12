@@ -28,7 +28,8 @@
 
 > [!NOTE]
 > 
-> **[Shadowrocket](https://apps.apple.com/us/app/shadowrocket/id932747118)**（中文用户常称为 **小火箭**）是由 **[Shadow Launch Technology Limited](https://shadowlaunch.com)** 开发的一款面向 Apple 平台的网络工具，用于配置和管理网络服务，支持 iPhone、iPad、Mac 和 Apple TV 等设备。软件不提供任何服务器资源，用户可根据需要自行配置相关服务
+> **[Shadowrocket](https://apps.apple.com/us/app/shadowrocket/id932747118)**（中文用户常称为 **小火箭**）是由 **[Shadow Launch Technology Limited](https://shadowlaunch.com)** 开发的一款面向 Apple 平台的网络工具，用于配置和管理网络服务，支持 iPhone、iPad、Mac 和 Apple TV 等设备<br>
+> 软件不提供任何服务器资源，用户可根据需要自行配置相关服务
 
 > 官方群组：[Shadowrocket App](https://t.me/ShadowrocketApp)<br>
 > 官方频道：[Shadowrocket News](https://t.me/ShadowrocketNews)<br>
