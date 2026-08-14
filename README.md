@@ -324,7 +324,7 @@
 > 
 > **其他命令**
 > 
-> > 该功能也支持更复杂的脚本指令，可以参阅 [此处示例](https://github.com/LOWERTOP/Shadowrocket-First#%E7%AD%9B%E9%80%89%E8%AE%A2%E9%98%85%E8%84%9A%E6%9C%AC)
+> > 该功能也支持更复杂的脚本指令，可以参阅 [此处示例](https://github.com/LOWERTOP/Shadowrocket-First#%E7%AD%9B%E9%80%89%E8%84%9A%E6%9C%AC)
 
 ### [代理通过/代理链](#使用目录)
 
