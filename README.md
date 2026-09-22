@@ -3,12 +3,14 @@
 [<img src="https://lowertop.github.io/Shadowrocket-First/img/ShadowrocketUserManual.png" width="100%">](https://github.com/LOWERTOP/Shadowrocket "仓库地址")
 
 > [!NOTE]
+>
+> **使用本手册及相关软件时，请遵守当地法律法规，并自行承担相关责任。本仓库为非官方项目，与 [Shadow Launch Technology Limited](https://shadowlaunch.com) 无任何关联。如遇软件本身的问题，请联系 [buginapp@gmail.com](mailto:buginapp@gmail.com)**
+
+> 本手册基于 **[Shadowrocket 官方群组](https://t.me/ShadowrocketApp)** 维护的关键词列表编写，并结合更新日志及社区反馈持续更新，涵盖 **Shadowrocket 正式版** 与 **TestFlight 测试版** 的大部分功能、使用方法及常见问题。由于软件功能会随版本迭代进行调整、优化或删改，具体内容请以实际版本为准。感谢原关键词列表作者，以及所有为相关项目提供贡献和维护的开发者与社区成员。
+>
+> 推荐访问 **[发布页面](https://lowertop.github.io/Shadowrocket/)** 使用，支持关键词检索。更多配置示例、主题配色及扩展资源，请参阅 **[配色与配置](https://github.com/LOWERTOP/Shadowrocket-First)** 仓库
+>
 > 
-> 本使用手册基于 **[Shadowrocket 官方群组](https://t.me/ShadowrocketApp)** 维护的关键词列表编写，并结合更新日志及社区反馈持续更新完善，覆盖 **Shadowrocket 正式版** 及 **TestFlight 测试版** 大部分功能说明、使用方法及部分常见问题。软件的部分功能可能因版本迭代存在调整、优化或删改，具体内容请以实际版本为准。推荐访问 **[发布页面](https://lowertop.github.io/Shadowrocket/)** 使用，支持关键词检索
-> 
-> **使用本手册及相关软件时，请遵守当地法律法规，并自行承担相关责任**
-> 
-> 本仓库为 **非官方项目**，与 [Shadow Launch Technology Limited](https://shadowlaunch.com) 无任何关联，仅由社区进行更新维护。谨向原关键词列表作者及所有为相关项目作出贡献的开发者、维护者和社区成员致以诚挚感谢。更多配置示例、主题配色及扩展资源，请参阅「**[配色与配置](https://github.com/LOWERTOP/Shadowrocket-First)**」仓库
 
 > [!TIP]
 > 
