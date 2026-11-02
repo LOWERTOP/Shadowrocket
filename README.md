@@ -16,6 +16,8 @@
 > 
 > **[懒人配置](https://lowertop.github.io/Shadowrocket/lazy_group.conf "含策略组版本")** 是专为 Shadowrocket 编写的开箱即用配置文件，首发于 Shadowrocket 官方群组。配置文件针对常用场景进行了优化，并为绝大多数配置项提供了详细注释，可通过纯文本模式查看完整说明<br>
 > 
+> 策略组版内置少量广告专用域名的精确拦截规则，维护依据、适用范围及误杀恢复方法见 [广告拦截说明](docs/adblocking.md)。
+>
 > 本仓库与官方群组保持同步更新，[Johnshall](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) 维护的版本也会同步更新至最新内容
 >
 > ```ruby
