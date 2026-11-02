@@ -1,0 +1,59 @@
+{
+  "taobao-startup": {
+    "name": "淘宝开屏广告（实验性）",
+    "hosts": [
+      "acs.m.taobao.com"
+    ],
+    "positive": [
+      "https://acs.m.taobao.com/gw/mtop.alibaba.advertisementservice.getadv/1.0/?data=example",
+      "https://acs.m.taobao.com/gw/mtop.alibaba.mos.app.homepage.launch/1.0/?data=example"
+    ],
+    "negative": [
+      "https://acs.m.taobao.com/gw/mtop.taobao.detail.getdetail/6.0/?data=example",
+      "https://acs.m.taobao.com/gw/mtop.trade.order.create/1.0/?data=example",
+      "https://acs.m.taobao.com/gw/mtop.user.login/1.0/?data=example",
+      "https://acs.m.taobao.com/gw/mtop.alibaba.mos.app.homepage.recommend/1.0/?data=example",
+      "https://acs.m.taobao.com/gw/mtop.alibaba.advertisementservice.getadvExtra/1.0/"
+    ]
+  },
+  "jd-startup": {
+    "name": "京东开屏广告（实验性）",
+    "hosts": [
+      "api.m.jd.com"
+    ],
+    "positive": [
+      "https://api.m.jd.com/client.action?functionId=home_launchConfig&client=apple",
+      "https://api.m.jd.com/client.action?client=apple&functionId=home_launchConfig",
+      "https://api.m.jd.com/client.action?client=apple&body=%7B%7D&functionId=home_launchConfig&v=1"
+    ],
+    "negative": [
+      "https://api.m.jd.com/client.action?functionId=home_launchConfigOther",
+      "https://api.m.jd.com/client.action?functionId=orderSubmit",
+      "https://api.m.jd.com/client.action?functionId=login",
+      "https://api.m.jd.com/client.action?functionId=welcomeHome",
+      "https://api.m.jd.com/client.action?functionId=pay",
+      "https://api.m.jd.com/client.action?returnUrl=functionId=home_launchConfig",
+      "https://api.m.jd.com/client.action?functionId=orderSubmit#&functionId=home_launchConfig",
+      "https://api.m.jd.com/client.action?functionId=orderSubmit&functionId=home_launchConfig",
+      "https://api.m.jd.com/client.action?functionId=home_launchConfig&functionId=orderSubmit"
+    ]
+  },
+  "meituan-startup": {
+    "name": "美团外卖开屏广告（实验性）",
+    "hosts": [
+      "wmapi.meituan.com"
+    ],
+    "positive": [
+      "https://wmapi.meituan.com/api/v7/startpicture?platform=ios",
+      "https://wmapi.meituan.com/api/v12/startpicture"
+    ],
+    "negative": [
+      "https://wmapi.meituan.com/api/v7/startpictureExtra",
+      "https://wmapi.meituan.com/api/v7/loadInfo?platform=ios",
+      "https://wmapi.meituan.com/api/v7/order/submit",
+      "https://wmapi.meituan.com/api/v7/login",
+      "https://apimobile.meituan.com/group/v1/recommend/unity/recommends",
+      "https://img.meituan.net/food/example.jpg"
+    ]
+  }
+}

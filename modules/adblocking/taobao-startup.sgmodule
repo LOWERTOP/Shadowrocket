@@ -1,0 +1,11 @@
+#!name=淘宝开屏广告（实验性）
+#!desc=仅针对历史开屏接口；未经当前 App 实机验证，需手动安装和启用 HTTPS 解密。异常时单独关闭本模块。
+# 不作为主配置的默认模块，不过滤推荐流、登录、订单或支付接口。
+# 端点依据、限制及安装方法：docs/adblocking.md
+
+[URL Rewrite]
+^https://acs\.m\.taobao\.com/gw/mtop\.alibaba\.advertisementservice\.getadv/[0-9]+(?:\.[0-9]+)*/?(?:\?|$) - reject-dict
+^https://acs\.m\.taobao\.com/gw/mtop\.alibaba\.mos\.app\.homepage\.launch/[0-9]+(?:\.[0-9]+)*/?(?:\?|$) - reject-200
+
+[MITM]
+hostname = %APPEND% acs.m.taobao.com
